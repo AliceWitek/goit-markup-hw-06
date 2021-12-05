@@ -685,8 +685,6 @@ flex-direction: column;}
 .newsletter {
    width: 570px;
     height: 86px;
-    padding-bottom:80px;
-    margin-left:294px;
   display: flex;
   flex-direction: column;
 } 
@@ -695,8 +693,8 @@ flex-direction: column;}
 width: 570px;
    display:flex; 
    align-items: center;
-   padding-left: 294px; 
-   /* margin: 0 auto; */
+   padding-right: 294px;  
+  
 
 
  
