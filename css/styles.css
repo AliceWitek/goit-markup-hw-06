@@ -643,7 +643,9 @@ flex-direction: column;}
 /*////////////PORTFOLIO///////////*/
 .portfolio-container {
    background: #ffffff;
+   margin: 0 auto;
 }
+
 .social-footer{
     margin-right:77px;
     margin-bottom:32px;
