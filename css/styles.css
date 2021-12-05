@@ -199,7 +199,7 @@ nav {
 .mail-icon{
   margin-right:10px;
   fill: #757575;
-  transition:color 250ms linear;
+  /* transition:color 250ms linear; */
   } 
 
 .tel {
@@ -220,6 +220,8 @@ nav {
                     rgba(47, 48, 58, 0.4)), 
                       url("../images/advantages-img.jpg");
                       background-repeat: no-repeat;
+                      background-position: center;
+                      background-size: cover;
                     
 } 
 
@@ -683,20 +685,17 @@ flex-direction: column;}
     height: 86px;
     margin-top: 12px;
     margin-left: 78px;
-    font-weight: bold;
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
-    flex-wrap: nowrap;
     
 }
 
 .newsletter-2 {
     display: flex;
     margin-top: 20px;
-    flex-direction: row;
 }
 
 .newsletter-email {
